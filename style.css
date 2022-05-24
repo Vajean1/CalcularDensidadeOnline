@@ -1,0 +1,43 @@
+/* Resetando atributos */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Para alinhar os textos */
+.titulo, .subtitulo, .explicacao {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Ínicio do FlexBox */
+
+.sec-principal {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+}
+
+.container-1 {
+    padding-top: 20px;
+}
+
+.form-recebimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.butao {
+    margin-top: 15px;
+}
+/* Final do FlexBox */
+
+/* Tamanho do input */
+
+.inp {
+    width: auto;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de densidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">
+            Calculo de densidade - Óleo e Azeite
+        </h1>
+        <h2 class="subtitulo">
+            Insira os valores no formulário abaixo:
+        </h2>
+    </header>
+    <section class="sec-principal">
+        <div class="container-1">
+            <p class="explicacao">
+                OBS:
+                P.Vazio = Pote vazio sem nada.
+                P.H2O = Pote com água destilada.
+                P.Produto = Pote com produto.
+
+                Segue-se essa ordem, NECESSÁRIAMENTE.
+            </p>
+        </div>
+        <div class="container-1">
+            <form action="" class="form-recebimento">
+                <label for="">P.Vazio: </label>
+                <input type="number" class="inp" id="p-vazio">
+                <label for="">P.H2O: </label>
+                <input type="number" class="inp" id="p-h2o">
+                <label for="">P.Produto: </label>
+                <input type="number" class="inp" id="p-produto">
+            </form>
+        </div>
+        <button type="submit" class="butao" onclick="CalcularDensidade()">Calcular</button>
+        <div class="container-1">
+            <span id="resultado">
+
+            </span>
+        </div>
+    </section>
+</body>
+    <script src="main.js"></script>
+</html>
